@@ -118,7 +118,7 @@ export default function HomePage() {
             <Sparkles size={21} aria-hidden />
           </div>
           <div>
-            <p className="text-xs font-bold uppercase tracking-wide text-slate-500">AI UI Tutor Demo</p>
+            <p className="text-xs font-bold uppercase tracking-wide text-slate-500">GuideLens AI Demo</p>
             <h1 className="text-2xl font-bold">Phân tích ảnh giao diện</h1>
           </div>
         </div>
@@ -192,7 +192,7 @@ export default function HomePage() {
                 {result?.annotated_image_data_url ? (
                   <a
                     href={result.annotated_image_data_url}
-                    download="ui-tutor-output.png"
+                    download="guidelens-ai-output.png"
                     className="grid h-10 w-10 place-items-center rounded-full bg-white text-brand-button"
                     aria-label="Tải ảnh output"
                   >

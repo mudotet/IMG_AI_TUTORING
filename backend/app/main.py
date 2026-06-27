@@ -7,7 +7,7 @@ from app.core.config import get_settings
 settings = get_settings()
 
 app = FastAPI(
-    title="AI UI Tutor API",
+    title="GuideLens AI API",
     version="0.1.0",
     description="Analyze UI screenshots and draw step-by-step guidance overlays.",
 )

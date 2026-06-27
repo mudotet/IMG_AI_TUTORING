@@ -1,6 +1,6 @@
-# AI UI Tutor
+# GuideLens AI
 
-AI UI Tutor is a one-page demo app that helps users understand what to do on a UI screenshot.
+GuideLens AI is a one-page demo app that helps users understand what to do on a UI screenshot.
 
 The user uploads a screenshot and enters a question or goal. The backend sends the image to OpenAI, asks the model to identify useful UI actions, and receives step-by-step guidance with pixel coordinates. The backend then draws those steps directly onto the original image and returns a new annotated output image.
 
@@ -10,7 +10,7 @@ The app starts with a clean upload screen. After the user uploads a screenshot a
 
 | Before analysis | After analysis |
 | --- | --- |
-| ![AI UI Tutor before analysis](docs/images/app-demo.png) | ![AI UI Tutor after analysis](docs/images/app-after.png) |
+| ![GuideLens AI before analysis](docs/images/app-demo.png) | ![GuideLens AI after analysis](docs/images/app-after.png) |
 
 ## Main Features
 

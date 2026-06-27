@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AI UI Tutor",
+  title: "GuideLens AI",
   description: "Upload a UI screenshot and generate annotated interaction steps."
 };
 

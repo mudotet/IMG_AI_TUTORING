@@ -1,3 +1,5 @@
+name: guidelens-ai
+
 services:
   backend:
     build:
